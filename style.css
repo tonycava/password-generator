@@ -1,0 +1,141 @@
+body {
+    background-color: black;
+}
+
+label {
+    margin-left: 4px;
+    padding-top: -4px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+
+#copyToClipboard {
+    background-color: black;
+    border-radius: 6em;
+    border: greenyellow 2px solid;
+    padding: 1em 3em;
+    color: greenyellow;
+    font-weight: bold;
+}
+
+#Tittle {
+    margin-top: 1.5rem;
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#SubTittle {
+    margin-top: 2rem;
+    color: greenyellow;
+    font-weight: bold;
+    font-size: 2rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#output {
+    position: absolute;
+    height: 55px;
+    width: 80%;
+    margin: 4rem 10% 10%;
+    border-radius: 1em;
+    border: dimgray 2px solid;
+    border-bottom: greenyellow 2px solid;
+    padding-left: 25px;
+}
+
+input[type="number"] {
+    width: 60px;
+}
+
+#form1 {
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: greenyellow;
+}
+
+.center2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#generatePassword {
+    background-color: black;
+    border: greenyellow 2px solid;
+    border-radius: 6em;
+    padding: 1em 3em;
+    color: greenyellow;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.footer {
+    position: fixed;
+    color: greenyellow;
+    bottom: 0;
+
+}
+
+#label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.center3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    margin-top: 15px;
+    color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Low {
+    margin: 0;
+    padding: 0;
+    float: left;
+
+}
+
+#Up {
+    margin: 0;
+    padding: 0;
+    float: left;
+
+}
+
+#Num {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+#Syb {
+    margin: 0;
+    padding: 0;
+    float: left;
+}

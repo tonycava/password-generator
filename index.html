@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css"/>
+    <meta charset="utf-8"/>
+    <title>Password Generator</title>
+
+    <link rel="icon" type="image/png" href="favicon.ico" />
+
+    <script type="text/javascript" charset="UTF-8" src="main.js" defer></script>
+</head>
+<body>
+
+<div class="center">
+    <button id="copyToClipboard">&#177; Copy to Clipboard</button>
+</div>
+
+<span id="SubTittle">Password Generator</span>
+<span id="Tittle">Generate a Secure Password</span>
+
+<label for="output"></label><input type="text" id="output">
+
+<form name="formname" id="form1">
+    <div>
+        <label for="label" id="label">Chose the length for your password</label><br>
+
+        <div class="center3">
+            <input type="number" id="lengthPassword" name="tentacles"
+                   max="100" value="10">
+        </div>
+
+    </div>
+    <div>
+    </div>
+</form>
+
+<div class="center2">
+    <input type="submit" value="Generate Password !" id="generatePassword">
+</div>
+
+<div id="container">
+    <form name="formname2" id="form2">
+        <label id="UpCheckbox">
+            <input type="checkbox" id="Up">
+        </label>
+        <label for="UpCheckbox" class="check">Uppercase Letters</label><br>
+
+        <label id="LowCheckbox">
+            <input type="checkbox" id="Low">
+        </label>
+        <label for="LowCheckbox" class="check">Lowercase Letters</label><br>
+
+        <label id="NumCheckbox">
+            <input type="checkbox" id="Num">
+        </label>
+        <label for="NumCheckbox" class="check">Numbers</label><br>
+
+        <label id="SybCheckbox">
+            <input type="checkbox" id="Syb">
+        </label>
+        <label for="SybCheckbox" class="check">Symbols</label><br>
+    </form>
+
+</div>
+
+<footer class="footer">
+    Copyright © 2021
+</footer>
+
+</body>
+</html>
